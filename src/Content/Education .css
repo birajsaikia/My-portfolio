@@ -1,0 +1,71 @@
+.main1{
+    background-color: rgb(237, 243, 237);
+    display: inline-flex;
+    justify-content: center;
+    width: 101%;
+    height: 660px;
+    margin-left: -5px;
+    margin-top: -7px;
+}
+.Main2{
+    width: '90%';
+    margin-left: 5%;
+    background-color: rgb(41, 43, 70);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.institute{
+    width: 90%;
+    /* margin-left: %; */
+    background-color:rgb(41, 43, 70);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px  0 0 0;
+}
+.institutename{
+    display: flex;
+    flex-direction: column;
+    margin: 0 3% 0;
+    justify-content: center;
+    align-items: center;
+    width : 300px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: RGB(219 217 220);
+    color: black;
+    transition: ease-in-out 0.5s;
+    animation: bounce 1s infinite linear;
+
+
+}
+.institutename:nth-child(1){
+    animation-delay: 0.2s;
+}
+.institutename:nth-child(2){
+    animation-delay: 0.4s;
+}
+.institutename:nth-child(3){
+    animation-delay: 0.6s;
+}
+@keyframes bounce {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.institutename:hover{
+    box-shadow: 0px 8px 15px 0px rgb(187, 187, 187);
+    width: 320px;
+    height: 380px;
+
+}

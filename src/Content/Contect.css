@@ -1,0 +1,47 @@
+#contact {
+  background-color: rgb(237, 243, 237);
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  margin-top: -7px;
+}
+#contact section {
+  background-color: #292b46;
+  width: 70%;
+  height: 90vh;
+}
+#contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#contact h2 {
+  text-align: center;
+  font: 100 2.7rem 'Open Sans',sans-serif;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin: 2rem;
+}
+#contact input  {
+  padding: 0.8rem;
+  width: 40%;
+  outline: none;
+  font: 400 0.9rem 'Roboto',sans-serif;
+  margin: 1rem;
+  border: none;
+}
+#contact button {
+  height: 50px;
+  width: 200px;
+  cursor: pointer;
+  background-color: #286f6c;
+  color: #fff;
+  font: 600 1rem 'Roboto',sans-serif;
+  text-transform: uppercase;
+  margin: 3rem;
+}
+#contact button:hover {
+  background-color: #174340;
+}

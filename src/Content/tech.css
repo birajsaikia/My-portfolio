@@ -1,0 +1,106 @@
+#technologies {
+  /* width: 80%; */
+  margin-top: -7px;
+  height: 50vh;
+  padding: 13.33vmax;
+  background-color: #292b46;
+  color: #fff;
+  overflow: hidden;
+}
+#technologies h2 {
+  font: 700 2.5rem "Roboto", sans-serif;
+  width: fit-content;
+  border-bottom: 1px solid #fff;
+  padding: 0.5rem;
+  margin: auto;
+  margin-bottom: 10rem;
+  margin-top: -10rem;
+}
+
+#technologies section {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+}
+@keyframes bounce {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+/* #technologies section * {
+  border: 2px solid #edf3ed;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #fff;
+  color: #161616;
+  width: 16%;
+  filter: drop-shadow(0px 0px 30px #286f6c);
+  animation: bounce 1s infinite linear;
+  cursor: pointer;
+} */
+.motion{
+    margin: 30px;
+    height: 150px;
+    width: 150px;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 50%;
+    animation: bounce 1s infinite linear;
+
+}
+.motion:hover {
+  box-shadow: 0 0 5px 15px #286f6c;
+}
+
+.motion:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.motion:nth-child(2) {
+  animation-delay: 0.4s;
+}
+#technologies section :nth-child(3) {
+  animation-delay: 0.6s;
+}
+#technologies section :nth-child(4) {
+  animation-delay: 0.8s;
+}
+#technologies section :nth-child(5) {
+  animation-delay: 0.1s;
+}
+#technologies section :nth-child(6) {
+  animation-delay: 0.2s;
+}
+#technologies section :nth-child(7) {
+  animation-delay: 0.4s;
+}
+#technologies section :nth-child(8) {
+  animation-delay: 0.6s;
+}
+#technologies section :nth-child(9) {
+  animation-delay: 0.8s;
+}
+#technologies section :nth-child(9) {
+  animation-delay: 0.1s;
+}
+
+h3 {
+  margin-top: 1rem;
+  color: black;
+}
+
+.img {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+  margin-top: -1vh;
+} 
